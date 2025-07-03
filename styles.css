@@ -1,0 +1,30 @@
+body { /*This is the styling for the body*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #afe3e9;
+  }
+  
+  h1 { /*This is styling for the 'To-Do List Header*/
+    text-align: center;
+    background-color: rgb(122, 234, 221);
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .sort { /*This is the styling for the 'Sort by' box*/
+    text-align: center;
+    background-color: rgb(76, 135, 136);
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  ul {
+    padding: 10;
+  }
+  
+  li { /*This is styling for the list of entries*/
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
