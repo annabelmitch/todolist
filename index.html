@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>To-Do List</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Header for the to do list -->
+    <h1>To-Do List</h1>
+    <!-- Dropdown for sorting the entries -->
+    <div class="sort">
+      <label for="sortOption">Sort by:</label>
+      <select id="sortOption">
+        <option value="dueDate">Due Date</option>
+        <option value="priority">Priority</option>
+      </select>
+    </div>
+    <!--Input for adding new task-->
+    <div class="add">
+      <input type="text" id="newTodo" placeholder="New task...">
+      <input type="date" id="dueDate">
+      <select id="priority">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+      </div>
+      <!-- Button for adding new task-->
+      <button id="addButton">Add</button>
+    </div>
+    <!-- List of tasks -->
+    <ul id="todoList">
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
